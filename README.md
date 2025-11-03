@@ -39,4 +39,3 @@ Submit to see your results and enjoy the interactivity!
 ## 🧠 Author
 
 Abdirahman Dubow
-Simple web survey project created for learning front-end development and UI interaction.
