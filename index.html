@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Survey & Background Switcher</title>
+</head>
+<body>
+    <main class="container">
+        <h1>🎵 Music Survey</h1>
+        <form id="musicForm">
+            <fieldset>
+                <legend>Which song styles do you like?</legend>
+                <label><input type="checkbox" name="style" value="Pop"> Pop</label>
+                <label><input type="checkbox" name="style" value="Rock"> Rock</label>
+                <label><input type="checkbox" name="style" value="Jazz"> Jazz</label>
+                <label><input type="checkbox" name="style" value="Classical"> Classical</label>
+                <label><input type="checkbox" name="style" value="EDM"> EDM</label>
+            </fieldset>
+            <fieldset>
+                <legend>Gender</legend>
+                <label><input type="radio" name="gender" value="Male"> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+                <label><input type="radio" name="gender" value="Prefer not to say"> Prefer not to say</label>
+            </fieldset>
+            
+            <label for="favourites">Your favourite songs or singers:</label>
+            <textarea id="favorites" rows="4" placeholder="Type at least 10 characters..."></textarea>
+            <div id="charCount">0 / 10</div>
+            
+            <button type="submit">Send answers</button>
+
+        </form>
+
+        <div id="message"></div>
+        <hr>
+        <h2>🎨 Background Colour Switcher</h2>
+        <div id="colorButtons" class="swatches">
+            <button data-color="rgb(217,158,245)" style="background:rgb(217,158,245)"></button>
+            <button data-color="white" style="background:white; border:1px solid #ccc"></button>
+            <button data-color="darkorange" style="background:darkorange"></button>
+            <button data-color="lightblue" style="background:lightblue"></button>
+            <button data-color="antiquewhite" style="background:antiquewhite"></button>
+            <button data-color="rgb(135,188,135)" style="background:rgb(135,188,135)"></button>
+        </div>
+
+        <label for="colorSelect">Or choose a color:</label>
+        <select id="colorSelect">
+            <option value="">-- Select a color --</option>
+            <option value="rgb(217,158,245)">rgb(217,158,245)</option>
+            <option value="white">white</option>
+            <option value="darkorange">darkorange</option>
+            <option value="lightblue">lightblue</option>
+            <option value="antiquewhite">antiquewhite</option>
+            <option value="rgb(135,188,135)">rgb(135,188,135)</option>
+        </select>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
