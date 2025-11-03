@@ -23,12 +23,8 @@ CSS3 – Styling and layout design
 
 JavaScript (Vanilla) – Form validation, interactivity, and color switching
 
-📂 Project Structure
-📁 Music-Survey/
-│
-├── index.html        # Main HTML structure
-├── styles.css        # All visual styling
-└── script.js         # Logic for form validation & color switching
+## 📂 Project Structure
+![Music Survey Preview](./images/structure.png)
 
 ## 💡 How to Use
 
