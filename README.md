@@ -30,7 +30,7 @@ JavaScript (Vanilla) – Form validation, interactivity, and color switching
 ├── styles.css        # All visual styling
 └── script.js         # Logic for form validation & color switching
 
-##💡 How to Use
+## 💡 How to Use
 
 Clone or download the project.
 
@@ -40,7 +40,7 @@ Fill out the survey, then try changing the background color.
 
 Submit to see your results and enjoy the interactivity!
 
-##🧠 Author
+## 🧠 Author
 
 Abdirahman Dubow
 Simple web survey project created for learning front-end development and UI interaction.
